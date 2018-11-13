@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Failed suite [Suite]]">
+  <test name="Test(failed)(failed)">
+    <classes>
+      <class name="testcase.TC_login">
+        <methods>
+          <include name="login" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- testcase.TC_login -->
+      <class name="testcase.TC_Workspace">
+        <methods>
+          <include name="login" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- testcase.TC_Workspace -->
+    </classes>
+  </test> <!-- Test(failed)(failed) -->
+</suite> <!-- Failed suite [Failed suite [Suite]] -->

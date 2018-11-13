@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+    <class name="testcase.TC_login"></class>
+      <class name="testcase.TC_NewMemOrgInivite"/>
+      <class name="testcase.TC_rmpendinguser"/>
+      <class name="testcase.TC_ResendPendingUserInvite"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

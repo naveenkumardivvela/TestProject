@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="47751" started-at="2018-11-13T12:31:44Z" finished-at="2018-11-13T12:32:32Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="47751" started-at="2018-11-13T12:31:44Z" finished-at="2018-11-13T12:32:32Z">
+      <class name="testcase.TC_NewMemOrgInivite">
+        <test-method status="PASS" signature="Organization()[pri:0, instance:testcase.TC_NewMemOrgInivite@378542de]" name="Organization" duration-ms="14867" started-at="2018-11-13T18:02:13Z" finished-at="2018-11-13T18:02:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Organization -->
+      </class> <!-- testcase.TC_NewMemOrgInivite -->
+      <class name="testcase.TC_rmpendinguser">
+        <test-method status="PASS" signature="Organization()[pri:0, instance:testcase.TC_rmpendinguser@3738449f]" name="Organization" duration-ms="682" started-at="2018-11-13T18:02:28Z" finished-at="2018-11-13T18:02:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Organization -->
+      </class> <!-- testcase.TC_rmpendinguser -->
+      <class name="testcase.TC_ResendPendingUserInvite">
+        <test-method status="PASS" signature="Organization()[pri:0, instance:testcase.TC_ResendPendingUserInvite@69e1dd28]" name="Organization" duration-ms="2594" started-at="2018-11-13T18:02:29Z" finished-at="2018-11-13T18:02:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Organization -->
+      </class> <!-- testcase.TC_ResendPendingUserInvite -->
+      <class name="testcase.TC_login">
+        <test-method status="PASS" signature="login(java.lang.String, java.lang.String)[pri:0, instance:testcase.TC_login@2e55dd0c]" name="login" duration-ms="29082" started-at="2018-11-13T18:01:44Z" data-provider="fetchData" finished-at="2018-11-13T18:02:13Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[mmandarapu@broadsoft.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Mouni@123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+      </class> <!-- testcase.TC_login -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
